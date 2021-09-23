@@ -16,7 +16,7 @@ namespace Programacion3._1901
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FuncionesRecursivas());
+            Application.Run(new Arreglos());
         }
     }
 }
