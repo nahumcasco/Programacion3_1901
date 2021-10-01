@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{934DA0FD-8933-4C2B-B245-FA6F0EF08E5C}</ProjectGuid>
+    <ProjectGuid>{B2A0501A-9699-4524-B8CC-01FA236057A8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Programacion3._1901</RootNamespace>
-    <AssemblyName>Programacion3.1901</AssemblyName>
+    <RootNamespace>POO</RootNamespace>
+    <AssemblyName>POO</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,70 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arreglos.cs">
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Cuenta.cs" />
+    <Compile Include="CuentaBancaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Arreglos.Designer.cs">
-      <DependentUpon>Arreglos.cs</DependentUpon>
+    <Compile Include="CuentaBancaria.Designer.cs">
+      <DependentUpon>CuentaBancaria.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funciones.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones.Designer.cs">
-      <DependentUpon>Funciones.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FuncionesAsincronas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FuncionesAsincronas.Designer.cs">
-      <DependentUpon>FuncionesAsincronas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FuncionesDeFecha.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FuncionesDeFecha.Designer.cs">
-      <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FuncionesDeTexto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FuncionesDeTexto.Designer.cs">
-      <DependentUpon>FuncionesDeTexto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FuncionesRecursivas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FuncionesRecursivas.Designer.cs">
-      <DependentUpon>FuncionesRecursivas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Matrices.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Matrices.Designer.cs">
-      <DependentUpon>Matrices.cs</DependentUpon>
-    </Compile>
+    <Compile Include="MovimientoCuenta.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Arreglos.resx">
-      <DependentUpon>Arreglos.cs</DependentUpon>
+    <EmbeddedResource Include="CuentaBancaria.resx">
+      <DependentUpon>CuentaBancaria.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Funciones.resx">
-      <DependentUpon>Funciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FuncionesAsincronas.resx">
-      <DependentUpon>FuncionesAsincronas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FuncionesDeFecha.resx">
-      <DependentUpon>FuncionesDeFecha.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FuncionesDeTexto.resx">
-      <DependentUpon>FuncionesDeTexto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FuncionesRecursivas.resx">
-      <DependentUpon>FuncionesRecursivas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Matrices.resx">
-      <DependentUpon>Matrices.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

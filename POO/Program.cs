@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Programacion3._1901
+namespace POO
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Programacion3._1901
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Matrices());
+            Application.Run(new CuentaBancaria());
         }
     }
 }
